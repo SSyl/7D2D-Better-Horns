@@ -1,0 +1,17 @@
+<configs>
+	<append xpath="/Sounds">
+		<SoundDataNode name="motorbike_horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+		<Noise ID="4" noise="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+		<AudioClip ClipName="#@modfolder:Resources/HornSounds.unity3d?motorbike_horn1"/>
+		<AudioClip ClipName="#@modfolder:Resources/HornSounds.unity3d?motorbike_horn2"/>
+		<AudioClip ClipName="#@modfolder:Resources/HornSounds.unity3d?motorbike_horn3"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+		<SoundDataNode name="4x4truck_horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+		<Noise ID="4" noise="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+		<AudioClip ClipName="#@modfolder:Resources/HornSounds.unity3d?4x4truck_horn1"/>
+		<AudioClip ClipName="#@modfolder:Resources/HornSounds.unity3d?4x4truck_horn2"/>
+		<AudioClip ClipName="#@modfolder:Resources/HornSounds.unity3d?4x4truck_horn3"/>
+		<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+	</append>
+</configs>
